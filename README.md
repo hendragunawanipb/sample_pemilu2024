@@ -1,8 +1,18 @@
-# sample_pemilu2024
+# Cara menggunakan Google Colab + Upload Data
+* buka 
+[https://github.com/hendragunawanipb/sample_pemilu2024/blob/main/sample_pemilu.ipynb](https://github.com/hendragunawanipb/sample_pemilu2024/blob/main/sample_pemilu.ipynb)
+* Klik tombol "Open in Colab" 
+* Login ke Google Account
+* Buka Google Drive, buat folder `sample_pemilu` 
+* Download file di [https://github.com/hendragunawanipb/sample_pemilu2024/tree/main/sample_pemilu](https://github.com/hendragunawanipb/sample_pemilu2024/tree/main/sample_pemilu) dan Ekstrak file sample_pemilu , lalu upload ke google drive `sample_pemilu`
+* Hubungkan Google Drive dengan Google Colab dengan mengklik icon Files di sidebar kiri, lalu pilih icon "Mount Drive"
+* Setelah terhubung, maka akan terlihat folder struktur, `/content/drive/MyDrive/sample_pemilu/` yg di dalamnya berisi
+  * sample_tingkat6_tps
+  * tingkat6_1000data
 
-***Disclaimer:***
+## ***Disclaimer:***
 
-
+*   Sample Data diambil hanya beberapa wilayah DKI Jakarta
 *   Sample Data diambil berdasarkan format API SIREKAP pada 16/02/2024 (dikarenakan format bisa berubah/diubah oleh pihak KPU)
 
 *   Sample Data diambil berdasarkan format API URL sebagai berikut
@@ -53,4 +63,16 @@ format
 
 
 
+
+### Visualisasi Grafik TPS (dari total sample 1000 data) 
+
+![](https://github.com/hendragunawanipb/sample_pemilu2024/blob/main/wiki/Visualisasi%20Grafik%20Perbedaan%20001.png)
+
+### Visualisasi Grafik Perbedaan Jumlah Suara (dari total sample 1000 data) dengan filter `perbedaan = True`
+
+![](https://github.com/hendragunawanipb/sample_pemilu2024/blob/main/wiki/Visualisasi%20Grafik%20Perbedaan%20002.png)
+
+### Visualisasi Frekuensi Kesalahan Perbedaan Suara (Y axis) terhadap Jumlah Perbedaan Suara (X axis)
+
+![](https://github.com/hendragunawanipb/sample_pemilu2024/blob/main/wiki/Visualisasi%20Frekuensi%20Perbedaan%20Suara.png)
 
